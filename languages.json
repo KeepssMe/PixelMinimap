@@ -1,0 +1,16 @@
+[
+    {
+        "name": "en",
+        "langs": [ "en", "en-US" ],
+        "translations": {
+            "main": "mainT"
+        }
+    },
+    {
+        "name": "ru",
+        "langs": [ "ru", "ru-RU" ],
+        "translations": {
+            "main": "главный"
+        }
+    }
+]

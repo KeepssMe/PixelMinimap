@@ -1,0 +1,108 @@
+#minimap {
+    position: absolute;
+    border-radius: 1px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+#minimap[theme='dark'] {
+    --resizer-size: 6px;
+    --resizer_size_inv: calc(var(--resizer-size) * -1);
+    --resizer-length: 40px;
+    --resizer-color: rgba(50, 50, 50, 0.4);
+    --border-color: rgba(50, 50, 50, 1.0);
+    --head-size: 30px;
+    color: white;
+    font-family: Montserrat,sans-serif;
+}
+
+#minimap::before {
+    position: absolute;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    transform: translate(-50%, -50%);
+    inset: 50%;
+    content: '';
+    z-index: -1;
+}
+
+#minimap_head {
+    height: var(--head-size);
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+}
+
+#minimap_main {
+    flex: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+}
+
+.minimap__resizer {
+    position: absolute;
+    width: var(--resizer-length);
+    height: var(--resizer-length);
+    border-radius: var(--resizer-size);
+    z-index: -2;
+}
+
+.minimap__resizer_lt {
+    left: var(--resizer_size_inv);
+    top: var(--resizer_size_inv);
+    border-left: var(--resizer-size) solid var(--resizer-color);
+    border-top: var(--resizer-size) solid var(--resizer-color);
+    cursor: nw-resize;
+}
+
+.minimap__resizer_rt {
+    right: var(--resizer_size_inv);
+    top: var(--resizer_size_inv);
+    border-right: var(--resizer-size) solid var(--resizer-color);
+    border-top: var(--resizer-size) solid var(--resizer-color);
+    cursor: ne-resize;
+}
+
+.minimap__resizer_lb {
+    left: var(--resizer_size_inv);
+    bottom: var(--resizer_size_inv);
+    border-left: var(--resizer-size) solid var(--resizer-color);
+    border-bottom: var(--resizer-size) solid var(--resizer-color);
+    cursor: sw-resize;
+}
+
+.minimap__resizer_rb {
+    right: var(--resizer_size_inv);
+    bottom: var(--resizer_size_inv);
+    border-right: var(--resizer-size) solid var(--resizer-color);
+    border-bottom: var(--resizer-size) solid var(--resizer-color);
+    cursor: se-resize;
+}
+
+#minimap_state {
+    flex: auto;
+    cursor: move;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minimap button {
+    padding: 0px;
+    border: none;
+    background: none;
+}
+
+.minimap__head-button {
+    width: var(--head-size);
+    fill: white;
+}
+
+.minimap__head-button:hover {
+	fill: grey;
+}
