@@ -1,4 +1,4 @@
-#minimap {
+.minimap {
     position: absolute;
     border-radius: 1px;
     border: 1px solid var(--border-color);
@@ -8,7 +8,7 @@
     z-index: 100;
 }
 
-#minimap[theme='dark'] {
+.minimap[theme='dark'] {
     --resizer-size: 6px;
     --resizer_size_inv: calc(var(--resizer-size) * -1);
     --resizer-length: 40px;
@@ -19,7 +19,7 @@
     font-family: Montserrat,sans-serif;
 }
 
-#minimap::before {
+.minimap::before {
     position: absolute;
     width: calc(100% + 2px);
     height: calc(100% + 2px);
@@ -29,18 +29,30 @@
     z-index: -1;
 }
 
-#minimap_head {
-    height: var(--head-size);
+.minimap_head {
+    min-height: var(--head-size);
+    max-height: var(--head-size);
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     flex-direction: row;
 }
 
-#minimap_main {
+.minimap_state {
+    flex: auto;
+    cursor: move;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minimap_content {
+    width: auto;
+    height: auto;
     flex: auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-top: 1px solid var(--border-color);
-    display: flex;
+    overflow: hidden;
 }
 
 .minimap__resizer {
@@ -83,14 +95,71 @@
     cursor: se-resize;
 }
 
-#minimap_state {
-    flex: auto;
-    cursor: move;
-    user-select: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.minimap_tabs {
+    width: 100%;
+    height: 100%;
+    position: sticky;
 }
+
+.minimap_tab_map {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.minimap_tab_setting {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: -1;
+}
+
+.minimap_tab_click {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    fill: white;
+    display: none;
+}
+
+.minimap_tab_click use {
+    width: 100%;
+    height: 100%;
+}
+
+.minimap_tab_click:hover {
+    fill: lightgray;
+}
+
+.minimap_tab_click_close {
+    right: 5px;
+    top: 5px;
+}
+
+.minimap_tab_click_setting {
+    right: 5px;
+    top: 5px;
+}
+
+.minimap_tabs:hover .minimap_tab_click {
+    display: block;
+}
+
+
+
+
+
+.bigf {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+
+
 
 #minimap button {
     padding: 0px;
