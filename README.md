@@ -21,7 +21,6 @@ PixelZone support not yet implemented.
 ---
 
 ### Contacts
-|Contact  |Info                                          |
-|:-------:|:--------------------------------------------:|
-|VK       |[Алена Воронцова](https://vk.com/alenacrowkar)|
-|Discord  |keepssme                                      |
+|Contact  |Role            |VK                                            |Discord |
+|:-------:|:--------------:|:--------------------------------------------:|:------:|
+|KeepssMe |Owner, Developer|[Алена Воронцова](https://vk.com/alenacrowkar)|keepssme|
