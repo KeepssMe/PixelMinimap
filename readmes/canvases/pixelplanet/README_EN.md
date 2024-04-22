@@ -39,3 +39,5 @@ In the process of compilation...
 |Contact  |Role            |VK                                            |Discord |
 |:-------:|:--------------:|:--------------------------------------------:|:------:|
 |KeepssMe |Owner, Developer|[Алена Воронцова](https://vk.com/alenacrowkar)|keepssme|
+
+Date of update: 22.04.2024
