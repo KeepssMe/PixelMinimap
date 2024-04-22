@@ -1,40 +1,41 @@
 # Pixel Minimap
-Данный файл содержит информацию о миникарте для пиксельных площадок
+This file contains information about the minimap for the site [PixelPlanet](https://pixelplanet.fun)  
 
-## Содержание
-[1. Установка](#installation)  
-[2. Функционал](#functional)  
-[3. Чек-лист](#checklist)  
-[4. Контакты](#contacts)  
+## Table of content
+[1. Installation](#installation)  
+[2. Functional](#functional)  
+[3. Checklist](#checklist)  
+[4. Contacts](#contacts)  
 
-## <a id="installation">Установка</a>
-1. Установить расширение для вашего браузера [Tampermonkey](https://www.tampermonkey.net)  
-(Его можно скачать с официального сайта, а так же найти в каталоге расширений вашего браузера)  
-__(Версия Tampermonkey должна быть не ниже 5.0.0)__
-2. Открыть [Ссылка 1](https://github.com/KeepssMe/PixelMaps/raw/master/minimap.user.js) или [Ссылка 2](https://raw.githubusercontent.com/KeepssMe/PixelMaps/master/minimap.user.js)
-3. Нажать кнопку "Установить" (Install)
-4. Откройте сайт пиксельной площадки [PixelPlanet](https://pixelplanet.fun)
-5. __Если у вас не оображаются шаблоны - продолжаем__
-6. Нажимаем на иконку расширения  
-![Install screen 1](../../files/install_1.png)
-7. Переходим в "Панель управления" (Dashboard)  
-![Install screen 1](../../files/install_2_ru.png)
-8. В окне раcширения переходим на вкладку "Настройки" (Settings)  
-![Install screen 1](../../files/install_3_ru.png)
-9. Меняем "Режим конфигурации" (Config mode) на "Опытный" (Advanced)  
-![Install screen 1](../../files/install_4_ru.png)
-10. Снизу страницы меняем "Режим встраивания" (Inject mode) на "Мгновенно" (Instant)  
-![Install screen 1](../../files/install_5_ru.png)
+## <a id="installation">Installation</a>
+1. Install the [Tampermonkey](https://www.tampermonkey.net) extension for your browser  
+(It can be downloaded from the official website, and can also be found in the store extensions of your browser)  
+2. Open [Link 1](https://github.com/KeepssMe/PixelMinimap/raw/master/minimap.user.js) or [Link 2](https://raw.githubusercontent.com/KeepssMe/PixelMinimap/master/minimap.user.js)
+3. Click the "Install" button
+4. Open/reload site [PixelPlanet](https://pixelplanet.fun)  
 
-__Если после этого у вас по прежнему не видно шаблонов, [свяжитесь с автором](#contacts)__
+__If your templates are not displayed, continue__  
 
-## <a id="functional">Функционал</a>
-В процессе написания...
+5. Click on the extension icon  
+![Install screen 1](../../files/configuration/step1.png)
+6. Go to Dashboard  
+![Install screen 2](../../files/configuration/step2_en.png)
+7. In the extension window, go to the Settings tab  
+![Install screen 3](../../files/configuration/step3_en.png)
+8. Changing the Config mod to Advanced  
+![Install screen 4](../../files/configuration/step4_en.png)
+9. At the bottom of the page, change the Inject mode to Instant  
+![Install screen 5](../../files/configuration/step5_en.png)
 
-## <a id="checklist">Чек-лист</a>
-В процессе составления...
+__If you still don't see any templates after that, [contact the author](#contacts)__
 
-## <a id="contacts">Контакты</a>
-1. [Vk - Алена Воронцова](https://vk.com/alenacrowkar)
+## <a id="functional">Functional</a>
+In the process of writing...
 
-<p style='text-align: right;'>Дата обновления: 17.01.2024</p>
+## <a id="checklist">Checklist</a>
+In the process of compilation...
+
+## <a id="contacts">Contacts</a>
+|Contact  |Role            |VK                                            |Discord |
+|:-------:|:--------------:|:--------------------------------------------:|:------:|
+|KeepssMe |Owner, Developer|[Алена Воронцова](https://vk.com/alenacrowkar)|keepssme|
