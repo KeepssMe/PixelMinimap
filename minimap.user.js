@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Pixel Minimap (Test)
 // @description OMG. I made a minimap. (At least I hope)
-// @version 1.0.1
+// @version 1.0.2
 // @author KeepssMe | Thank you Sallbet for testing and listening to my whining
 // @exclude *git.pixelplanet.fun/*
 // @match *.pixelplanet.fun/*
