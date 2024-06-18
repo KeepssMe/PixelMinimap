@@ -17,15 +17,18 @@
 __Если у вас не отображаются шаблоны, продолжаем__  
 
 5. Нажимаем на иконку расширения  
-![Install screen 1](../../files/configuration/step1.png)
+![Install screen 1](../../files/configuration/step1.png)  
 6. Переходим в "Панель управления" (Dashboard)  
-![Install screen 2](../../files/configuration/step2_ru.png)
+![Install screen 2](../../files/configuration/step2_ru.png)  
 7. В окне раcширения переходим на вкладку "Настройки" (Settings)  
-![Install screen 3](../../files/configuration/step3_ru.png)
+![Install screen 3](../../files/configuration/step3_ru.png)  
 8. Меняем "Режим конфигурации" (Config mode) на "Опытный" (Advanced)  
-![Install screen 4](../../files/configuration/step4_ru.png)
-9. Снизу страницы меняем "Режим встраивания" (Inject mode) на "Мгновенно" (Instant)  
-![Install screen 5](../../files/configuration/step5_ru.png)
+![Install screen 4](../../files/configuration/step4_ru.png)  
+9. Включаем настройки, возможно что у Вас не будет определенных настроек, игнорируем отсуствующие:  
+- В разделе "Эксперементально" (Experimental) меняем "Режим встраивания" (Inject mode) на "Мгновенно" (Instant);  
+![Install screen 5_1](../../files/configuration/step5_1_ru.png)  
+- В разделе "Безопасность" (Security) меняем "Содержимое скрипта API" (Content Script API) на "UserScripts API Dynamyc" __(Не забудьте нажать кнопку "Сохранить" в конце этого раздела)__;  
+![Install screen 5_2](../../files/configuration/step5_2_ru.png)  
 
 __Если после этого у вас по прежнему не видно шаблонов, [свяжитесь с автором](#contacts)__
 

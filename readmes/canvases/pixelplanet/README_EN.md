@@ -18,14 +18,17 @@ __If your templates are not displayed, continue__
 
 5. Click on the extension icon  
 ![Install screen 1](../../files/configuration/step1.png)
-6. Go to Dashboard  
+6. Go to "Dashboard"  
 ![Install screen 2](../../files/configuration/step2_en.png)
-7. In the extension window, go to the Settings tab  
+7. In the extension window, go to the "Settings" tab  
 ![Install screen 3](../../files/configuration/step3_en.png)
-8. Changing the Config mod to Advanced  
+8. Changing the "Config mod" to "Advanced"  
 ![Install screen 4](../../files/configuration/step4_en.png)
-9. At the bottom of the page, change the Inject mode to Instant  
-![Install screen 5](../../files/configuration/step5_en.png)
+9. Enable settings, some settings you may not have, ignore missing ones:  
+- In the "Experimental" section, change the "Inject mode" to "Instant";  
+![Install screen 5_1](../../files/configuration/step5_1_en.png)  
+- In the "Security" section, change the "Content Script API" to "UserScripts API Dynamyc" __(Remember to click the "Save" button at the end of this section)__;  
+![Install screen 5_2](../../files/configuration/step5_2_en.png)  
 
 __If you still don't see any templates after that, [contact the author](#contacts)__
 
